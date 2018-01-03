@@ -1,9 +1,7 @@
 package main
 
-import "mzr/cmd/commands"
+import "github.com/NinaWatcher/mzr/cmd"
 
 func main() {
-
-	commands.Execute()
-
+	cmd.Execute()
 }
